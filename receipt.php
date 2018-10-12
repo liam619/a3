@@ -13,7 +13,7 @@
                 <table>
                     <tr>
                         <td class="title">
-                            <img src="../B.jpg">
+                            <img src="../../media/B.jpg">
                         </td>
                         <td></td>
                         <td>

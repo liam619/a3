@@ -35,7 +35,7 @@ function printProductList() {
 
         $meta=<<< "OUTPUT"
         <div>
-            <div class='image'><a href='product.php?id={$ID}'><img src='../{$item['IMG']}' title='{$item["TITLE"]}' alt='{$item["TITLE"]}' class="items"></a></div>
+            <div class='image'><a href='product.php?id={$ID}'><img src='../../media/{$item['IMG']}' title='{$item["TITLE"]}' alt='{$item["TITLE"]}' class="items"></a></div>
             <div class='name'><a href='product.php?id={$ID}' class="productsname"> {$item["TITLE"]} </a></div>
         </div>
 OUTPUT;
@@ -71,7 +71,7 @@ function printProductInfo() {
 
         $meta=<<< "OUTPUT"
         <div id='info-left'>
-            <div id='image'><img src='../{$proImage}' title='{$proTitle}' alt='{$proTitle}' class="items show-items"></div>
+            <div id='image'><img src='../../media/{$proImage}' title='{$proTitle}' alt='{$proTitle}' class="items show-items"></div>
         </div>
 
         <div id='info-right'>
@@ -346,7 +346,9 @@ function printReceiptFunction() {
 }
 
 function printReceiptItems() {
-
+    $count = 0;
+    $total = 0;
+    
     foreach($_SESSION['cart'] as $ID => $item) {
         $max = count($_SESSION['cart']);
         $max+= $max;

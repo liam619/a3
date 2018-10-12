@@ -12,7 +12,7 @@
             <main>
                 <article>
                     <br>
-                    <img src="../../media/HerpNetwork.png" alt="Herp Network Logo" class="logo">
+                    <img src="../../media/B.jpg" alt="" class="logo">
                     <h2 class="center">Member Login</h2>
                     <hr class="hr">
 

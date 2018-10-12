@@ -12,7 +12,7 @@
             <main>
                 <article>
                     <br>
-                    <img src="../B.jpg" alt="BBB Gamer Store" class="logo">
+                    <img src="../../media/B.jpg" alt="BBB Gamer Store" class="logo">
                     <h2 class="center">BBB Gamer Store</h2>
                     <hr class="hr">
                     <p> A game shop that sell numerous type of gaming stuff, from console to games for you to pick. Always the lowest price available in market.</p>
