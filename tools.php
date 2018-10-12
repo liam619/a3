@@ -274,41 +274,46 @@ function checkoutFunction() {
         }
     }
 
+    $name    = $_SESSION['user']['name'];
+    $address = $_SESSION['user']['address'];
+    $email   = $_SESSION['user']['email'];
+    $mobile  = $_SESSION['user']['mobile'];
+
     $meta=<<< "OUTPUT"
     <div class="row">
        <div class="two columns">Name</div>
-       <div class="eight columns"><input type='text' id='name' name='name' class='u-full-width' value='{$_SESSION['user']['name']}' autofocus></div>
+       <div class="eight columns"><input type='text' id='name' name='name' class='u-full-width' value='{$name}' autofocus></div>
        {$nameError}
     </div>
 
     <div class="row">
        <div class="two columns">Address</div>
-       <div class="eight columns"><textarea id='address' name='address' class='u-full-width'>{$_SESSION['user']['address']}</textarea></div>
+       <div class="eight columns"><textarea id='address' name='address' class='u-full-width'>{$address}</textarea></div>
        {$addressError}
     </div>
 
     <div class="row">
       <div class="two columns">Email</div>
-      <div class="eight columns"><input type='text' id='email' name='email' class='u-full-width' value='{$_SESSION['user']['email']}'></div>
+      <div class="eight columns"><input type='text' id='email' name='email' class='u-full-width' value='{$email}'></div>
       {$emailError}
     </div>
 
     <div class="row">
       <div class="two columns">Mobile No.</div>
-      <div class="four columns"><input type='text' id='mobile' name='mobile' class='u-full-width' value='{$_SESSION['user']['mobile']}'></div>
+      <div class="four columns"><input type='text' id='mobile' name='mobile' class='u-full-width' value='{$mobile}'></div>
       {$mobileError}
     </div>
 
     <div class="row">
         <div class="two columns">Credit Card No</div>
-        <div class="three columns"><input type='text' id='ccNo' name='ccNo' class='u-full-width' onkeyup="checkCardType()" value='{$_SESSION['user']['ccNo']}'></div>
+        <div class="three columns"><input type='text' id='ccNo' name='ccNo' class='u-full-width' onkeyup="checkCardType()"></div>
         <div class="one columns" id='cardLogo'><i class="fa fa-credit-card"></i></div>
         {$ccNoError}
     </div>
 
     <div class="row">
         <div class="two columns">Card Expiry</div>
-        <div class="three columns"><input type='month' id='ccExp' name='ccExp' class='u-full-width' value='{$_SESSION['user']['ccExp']}'></div>
+        <div class="three columns"><input type='month' id='ccExp' name='ccExp' class='u-full-width'></div>
         {$ccExpError}
     </div>
 OUTPUT;
@@ -348,7 +353,7 @@ function printReceiptFunction() {
 function printReceiptItems() {
     $count = 0;
     $total = 0;
-    
+
     foreach($_SESSION['cart'] as $ID => $item) {
         $max = count($_SESSION['cart']);
         $max+= $max;
