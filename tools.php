@@ -206,11 +206,6 @@ function checkoutFunction() {
     $ccNoError    = '';
     $ccExpError   = '';
 
-    $name    = '';
-    $address = '';
-    $email   = '';
-    $mobile  = '';
-
     if (isset($_POST['name'], $_POST['address'], $_POST['email'], $_POST['mobile'], $_POST['ccNo'], $_POST['ccExp'])) {
         $_SESSION['user']['purcDate'] = date("Y-m-d");
 
@@ -279,10 +274,10 @@ function checkoutFunction() {
         }
     }
 
-    $name    = $_SESSION['user']['name'];
-    $address = $_SESSION['user']['address'];
-    $email   = $_SESSION['user']['email'];
-    $mobile  = $_SESSION['user']['mobile'];
+    $name    = (isset($_SESSION['user']['name']))? $_SESSION['user']['name'] : '';
+    $address = (isset($_SESSION['user']['address']))? $_SESSION['user']['address'] : '';
+    $email   = (isset($_SESSION['user']['email']))? isset($_SESSION['user']['email'] : '';
+    $mobile  = (isset($_SESSION['user']['mobile']))? $_SESSION['user']['mobile'] : '';
 
     $meta=<<< "OUTPUT"
     <div class="row">
