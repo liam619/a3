@@ -276,7 +276,7 @@ function checkoutFunction() {
 
     $name    = (isset($_SESSION['user']['name']))? $_SESSION['user']['name'] : '';
     $address = (isset($_SESSION['user']['address']))? $_SESSION['user']['address'] : '';
-    $email   = (isset($_SESSION['user']['email']))? isset($_SESSION['user']['email'] : '';
+    $email   = (isset($_SESSION['user']['email']))? $_SESSION['user']['email'] : '';
     $mobile  = (isset($_SESSION['user']['mobile']))? $_SESSION['user']['mobile'] : '';
 
     $meta=<<< "OUTPUT"
