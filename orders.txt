@@ -1,1 +1,25 @@
-Date	Name	Email	Mobile	Address	PID	OID	Quantity	Unit Price	Sub Total
+Purchase Date   Name    Address Mobile  Email   ID  OID Quantity    Unit Price  Subtotal
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SL	21	399.00	8379.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4S	PS4SS	1	299.00	299.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PL	1	599.00	599.00
+2018-10-12	"Weng Lim Low"	"3 Forest Ct"	0450696263	dragon_lwl88@hotmail.com	PS4P	PS4PS	6	499.00	2994.00

@@ -1,1 +1,647 @@
-/* Insert your styles here */
+body.custombgproducts {
+    background-image: url("https://herpnetwork.com/image/2017/09/2017-06-04_05.21.10-min.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 10000;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+div.transbox {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, 80%);
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+div.center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    font-family: tahoma, sans-serif;
+}
+
+.h {
+    text-align: center;
+    font-family: tahoma, sans-serif;
+}
+
+.productsname {
+    text-align: center;
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+}
+
+.site {
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 1300px;
+    width: 100%;
+    background: rgba(0, 0, 0, .75);
+}
+
+.navLogo {
+    width: 100px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.logo {
+    margin: 0 0 .5em;
+    padding: 0;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    border: none;
+    vertical-align: top;
+    z-index: 10001;
+}
+
+.items {
+    height: 228px;
+    width: 228px;
+}
+
+div.transbox p {
+    margin: 10%;
+    color: #000000;
+    padding: 14px 16px;
+    font-family: sans-serif, raleway, tahoma, arial;
+    font-size: 15px;
+    line-height: 1.75;
+    z-index: 9999;
+}
+
+div.transbox-login {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #000000;
+    padding: 14px 16px;
+    font-family: sans-serif, raleway, tahoma, arial;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    background-color: rgba(255, 255, 255, 80%);
+    z-index: 9999;
+    border-radius: 25px;
+}
+
+.hr {
+    width: 80%;
+}
+
+/** Login page style css **/
+.input-block {
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 35px;
+    font-size: inherit;
+    box-shadow: 0 0 0 1px #dfdfdf inset;
+    padding: 0 5px 0;
+    margin: 5px;
+}
+
+.btn {
+    border: 0.5px solid;
+    border-radius: 4px;
+    font-size: 12px;
+    background: none;
+    cursor: pointer;
+    padding: 10px 50px;
+    display: inline-block;
+    margin: 15px 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    max-width: 100%;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn-1c:after {
+    width: 0%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #808080;
+    border-radius: 4px;
+}
+
+.btn-1c:hover,
+.btn-1c:active {
+    color: #fff;
+    background-color: #000
+}
+
+.btn-1c:hover:after,
+.btn-1c:active:after {
+    width: 100%;
+}
+
+/** Footer container **/
+footer {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 80%);
+    color: #000000;
+    padding: 14px 16px;
+    font-family: sans-serif, raleway, tahoma, arial;
+    font-size: 12px;
+    line-height: 1.25;
+    z-index: 9999;
+    border-radius: 25px;
+}
+
+/** Header navigation bar **/
+nav {
+    padding: 0 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background: rgba(0, 0, 0, 50%);
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 50%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    display: inline-block;
+    font-size: 17px;
+    padding: 0 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 50%);
+    color: #000;
+    border-radius: 5px;
+}
+
+.stickOnTop {
+    position: fixed;
+    top: 0;
+    margin: 0 10% 0;
+    width: 80%;
+}
+
+/** Product and Products page **/
+#container {
+    padding: 0 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#column-left {
+    float: left;
+    width: 250px;
+}
+
+#column-right {
+    float: right;
+    width: 250px;
+}
+
+#content {
+    padding: 10px 20px;
+    min-height: 450px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 80%);
+}
+
+#column-left+#content {
+    margin-left: 300px;
+}
+
+#column-left-box {
+    background: rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 50%);
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+#column-left-header {
+    font-size: 20px;
+    color: #A9A9A9;
+    padding: 8px 10px 7px 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#column-left-content {
+    padding: 0 10px 0;
+}
+
+#column-left-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#column-left-content>ul>li+li {
+    border-top: 1px solid #000;
+}
+
+#column-left-content>ul>li>a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#product-filter {
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+#product-grid {
+    width: 100%;
+    overflow: auto;
+}
+
+#product-grid>div {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 45px 15px;
+}
+
+#product-grid .image {
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#product-grid .name a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    min-height: 50px;
+    text-align: center;
+}
+
+#product-grid .price {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#product-info {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#product-info>#info-left {
+    float: left;
+    margin-left: 15%;
+}
+
+#product-info>#info-left+#info-right {
+    margin-left: 55%;
+    margin-right: 20%;
+}
+
+#product-info #image {
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#product-info #item-desc {
+    padding: 0 0 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: tahoma, sans-serif;
+}
+
+#product-info #item-price {
+    overflow: auto;
+    padding: 0 0 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: tahoma, sans-serif;
+}
+
+#product-info #item-option {
+    //  overflow: auto;
+    //    color : #000;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 25px;
+    font-family: tahoma, sans-serif;
+}
+
+#product-info #item-cart {
+    padding: 0 0 10px 10px;
+}
+
+#product-info #item-cart>div {
+    float: left;
+    vertical-align: middle;
+}
+
+#product-info #product-info-qty {
+    width: 40px;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#product-info #itemInc {
+    padding: 0 10px;
+}
+
+#product-info #itemDec {
+    padding: 0 10px;
+}
+
+#tab-content {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 105px 0 0;
+    z-index: 2;
+    overflow: auto;
+}
+
+/** Product and Producs page side bar menu **/
+.left-menu-dropdown {
+    display: block;
+    padding-right: 50%;
+    width: 90%;
+    margin: 10px 0 5px;
+    background-color: #a9a9a9;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.left-menu-dropdown-container {
+    display: none;
+}
+
+.left-menu-dropdown-container a {
+    color: #f5f5f5
+}
+
+.left-menu-dropdown-container a:link {
+    text-decoration: none;
+    margin: 30px;
+}
+
+.left-menu-dropdown-container a:visited {
+    color: #b79300;
+}
+
+.left-menu-dropdown-container a:hover {
+    color: #ffd700;
+}
+
+.left-menu-dropdown-container a:active {
+    color: #ff0000;
+}
+
+.left-menu-dropdown-container>ul>li {
+    padding-bottom: 8px;
+}
+
+/** Product page add to cart button **/
+.cartBtn {
+    padding: 0 10px;
+    border-radius: 15px;
+    /* font-size: 14px; */
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.cartBtn:hover {
+    border: 1px solid #ffd700;
+    color: #fff;
+    background-color: #555555;
+}
+
+/** Original code source and adepted from : https://speckyboy.com/open-source-css-javascript-select-box-snippets/ **/
+.dropdown {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    //    height: 28px;
+    width: 150px;
+    border: 1px solid;
+    border-color: white #f7f7f7 whitesmoke;
+    border-radius: 3px;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.06));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.06));
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.dropdown:before, .dropdown:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 13px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 4px dashed;
+    border-color: #ffffff transparent;
+    pointer-events: none;
+}
+
+.dropdown:before {
+    border-bottom-style: solid;
+    border-top: none;
+}
+
+.dropdown:after {
+    margin-top: 7px;
+    border-top-style: solid;
+    border-bottom: none;
+}
+
+.dropdown-select {
+    position: relative;
+    width: 130%;
+    margin: 0;
+    padding: 6px 8px 6px 10px;
+    /* height: 28px; */
+    font-size: 14px;
+    color: #62717a;
+    text-shadow: 0 1px white;
+    background: rgba(0, 0, 0, 0) !important;
+    border: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.dropdown-dark {
+    //    background: #444;
+    border-color: #111111 #0a0a0a black;
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.4));
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.1), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-dark .dropdown-select {
+    color: #000;
+    text-shadow: 0 1px black;
+}
+
+.product-lore {
+    font-weight: bold;
+    font-family: tahoma, Comic Sans MS;
+}
+
+.product-nextlore {
+    font-weight: normal;
+    font-family: Comic Sans MS;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+#cardLogo {
+    font-size: 30px;
+}
+
+.borderForCart {
+    text-align: center;
+    border: 1px solid;
+    /* border-top: 1px solid;
+    border-bottom: 1px solid; */
+    margin-left: 0% !important;
+}
+
+#errorMark {
+    color: red;
+    font-weight: bold;
+    padding: 10px
+}
+
+/**********************************************************************************************/
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: center;
+}
+
+.invoice-box table tr td:nth-child(3) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td {
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(3) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}

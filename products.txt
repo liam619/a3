@@ -1,1 +1,5 @@
-Name	Email	Phone	Address
+ID	OID	TITLE	DESCRIPTION	OPTION	PRICE	IMG
+PS4S	PS4SS	Playstation 4 Slim	Playstation 4 slim edition, 500GB	500GB	299.00	playstation4slim.png
+PS4S	PS4SL	Playstation 4 Slim	Playstation 4 slim edition, 1TB	1000GB	399.00	playstation4slim.png
+PS4P	PS4PS	Playstation 4 Pro	Playstation 4 PRO edition, 500GB	500GB	499.00	playstation4pro.png
+PS4P	PS4PL	Playstation 4 Pro	Playstation 4 PRO edition, 1TB	1000GB	599.00	playstation4pro.png
