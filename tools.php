@@ -206,6 +206,11 @@ function checkoutFunction() {
     $ccNoError    = '';
     $ccExpError   = '';
 
+    $name    = '';
+    $address = '';
+    $email   = '';
+    $mobile  = '';
+
     if (isset($_POST['name'], $_POST['address'], $_POST['email'], $_POST['mobile'], $_POST['ccNo'], $_POST['ccExp'])) {
         $_SESSION['user']['purcDate'] = date("Y-m-d");
 
